@@ -17,15 +17,15 @@ MedScript-OCR delivers a low-latency, high-accuracy solution that runs locally w
 Clinics with limited internet access
 Environments requiring high data privacy
 Edge deployment in healthcare settings
+
 🚀 Key Features
 CNN-Inspired Processing Pipeline: Simulates vision-based AI using layered image processing
 Medical Lexicon Matching: Maps detected patterns to validated drug names
 Human-in-the-Loop Verification: Ensures accuracy through manual confirmation
 Pure Python Implementation: Zero external dependencies for maximum compatibility
+
 🛠 System Architecture
-
 The system operates through a structured 4-stage pipeline:
-
 Pre-processing
 Converts input images into high-contrast grayscale to highlight ink patterns
 Noise Reduction
@@ -34,6 +34,7 @@ Segmentation
 Detects and separates connected handwritten characters
 Classification
 Matches extracted features with entries in the MEDICAL_LEXICON
+
 💻 Installation & Usage
 Requirements
 Python 3.6 or above
@@ -46,14 +47,16 @@ How It Works
 Input a prescription image (e.g., sample_note.png)
 Follow terminal prompts
 Review and verify suggested outputs
+
 🔮 Future Enhancements
 OpenCV integration for real-time image processing
 Integration with global drug databases (e.g., WHO)
 Mobile interface for bedside usage
+
 ⚖️ Ethics & Data Privacy
 Fully Local Processing: No data is transmitted externally
 Assistive Tool Only: Designed to support—not replace—medical professionals
-👩‍💻 Author
 
+👩‍💻 Author
 Palak Priya
 B.Tech – Computer Science (Health Informatics)
